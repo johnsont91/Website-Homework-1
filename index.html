@@ -4,89 +4,118 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Intorduction to Web Typography</title>
+        <title>Studio Ghibli - Welcome</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-       <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,600|Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Lobster' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/main.css">
     </head>
     
     <body>
-        <h1>Web Typography</h1>
-        <p>Web typography refers to the use of fonts on the World Wide Web. When HTML was first created, font faces and styles were controlled exclusively by the settings of each Web browser. There was no mechanism for individual Web pages to control font display until Netscape introduced the <code>&lt;font&gt;</code> tag in 1995, which was then standardized in the HTML 2 specification. However, the font specified by the tag had to be installed on the user's computer or a fallback font, such as a browser's default sans-serif or monospace font, would be used. The first Cascading Style Sheets specification was published in 1996 and provided the same capabilities.</p>
-        <blockquote>
-            <p>Being a web designer will soon require a deeper understanding of typography and how typefaces work. As we move in this direction, our options may be limited at first, but the pool of choices will steadily grow. And as we know, with great power comes great responsibility. Just because you <em>can</em> use the font that looks like it’s wearing bellbottoms, doesn’t mean <em>you should</em>.</p>
-            <cite>Jason Santa Maria</cite>
+        <h1>Studio Ghibli</h1>
+        
+    <p><strong>Studio Ghibli, Inc.</strong> is a Japanese animation film studio based in Koganei, Tokyo, Japan. The studio is best known for its <a href="http://en.wikipedia.org/wiki/Anime" target="_blank">anime</a> feature films, and has also produced several short films, television commercials, and one television film. It was founded in June 1985 after the success of Nausicaä of the Valley of the Wind (1984), with funding by <em>Tokuma Shoten</em>.</p>
+        
+         <blockquote>
+            <p>On August 3, 2014, Studio Ghibli announced it was temporarily halting production following the retirement of director <a href="http://en.wikipedia.org/wiki/Hayao_Miyazaki" target="_blank">Hayao Myazaki</a>.</p>
         </blockquote>
-        <p>The CSS2 specification was released in 1998 and attempted to improve the font selection process by adding font matching, synthesis and download. These techniques did not gain much use, and were removed in the CSS2.1 specification. However, Internet Explorer added support for the font downloading feature in version 4.0, released in 1997. Font downloading was later included in the CSS3 fonts module, and has since been implemented in Safari 3.1, Opera 10 and Mozilla Firefox 3.5. This has subsequently increased interest in Web typography, as well as the usage of font downloading.</p>
-        <h2>CSS1</h2>
-        <p>In the first CSS specification, authors specified font characteristics via a series of properties:  </p>
-        <ul>
-            <li>font-family</li>
-            <li>font-style</li>
-            <li>font-variant</li>
-            <li>font-weight</li>
-            <li>font-size</li>
-        </ul>
-        <p>All fonts were identified solely by name. Beyond the properties mentioned above, designers had no way to style fonts, and no mechanism existed to select fonts not present on the client system.</p>
-        <h3>Web-safe fonts</h3>
-        <p>Web-safe fonts are fonts likely to be present on a wide range of computer systems, and used by Web content authors to increase the likelihood that content displays in their chosen font. If a visitor to a Web site does not have the specified font, their browser tries to select a similar alternative, based on the author-specified fallback fonts and generic families or it uses font substitution defined in the visitor's operating system.</p>
-        <h3>Generic font families</h3>
-        <p>To give Web designers some control over the appearance of fonts on their Web pages, even when the specified fonts are not available, the CSS specification allows the use of several generic font families. These families are designed to split fonts into several categories based on their general appearance. They are commonly specified as the last in a series of fallback fonts, as a last resort in the event that none of the fonts specified by the author are available. There are five generic families:</p>
+          <h2>A Brief History</h2> 
+        <p>Founded in <strong>1985</strong>, the studio is headed by the acclaimed director Hayao Miyazaki along with his faithful companion Isao Takahata, as well as the studio's executive managing director and long-time producer Toshio Suzuki. Its origins date back to <strong>1984</strong>, with the film Nausicaä of the Valley of the Wind. </p>
+        <p>
+            Tokuma is the parent company of Studio Ghibli, and it has provided the Walt Disney Company with the video rights to all of Ghibli's output that did not have previous international distribution, including the global, non-Japan distribution rights to Princess Mononoke and Spirited Away. 
+           </p>
+        <p>
+            Composer <strong>Joe Hisaishi</strong> has provided the soundtrack for all of Miyazaki's Studio Ghibli films.
+
+
+</p>
+            <h3>Founders of Studio Ghibli</h3>
         <dl>
-            <dt>Sans-serif</dt>
-                <dd>Fonts that do not have decorative markings, or serifs, on their letters. These fonts are often considered easier to read on screens.</dd>
-            <dt>Serif</dt>
-                <dd>Fonts that have decorative markings, or serifs, present on their characters.</dd>
-            <dt>Monospace</dt>
-                <dd>Fonts in which all characters are equally wide.</dd>
-            <dt>Cursive</dt>
-                <dd>Fonts that resemble cursive writing. These fonts may have a decorative appearance, but they can be difficult to read at small sizes, so they are generally used sparingly.</dd>
-            <dt>Fantasy</dt>
-                <dd>Fonts that may contain symbols or other decorative properties, but still represent the specified character.</dd>
+            <dt>Hayao Miyazaki</dt>
+                <dd>Born on January 5, 1941 in Bunkyo, Tokyo, Japan.
+            Miyazaki is a film director, animator, screenwriter, and manga artist. He was active in his occupation from 1963-2014.</dd>
+            <dt>Isao Takahata</dt>
+                <dd>Born on October 29, 1935 in Ujiyamada, Japan.
+            Takahata is a film director, screenwriter, and producer. He is currently still active in his current occupation and has began his career in 1961.</dd>
+            <dt>Toshio Suzuki</dt>
+                <dd>Born on August 19, 1948 in Nagoya, Aichi, Japan. Suzuki is the General manager and Studio executive of Studio Ghibli. </dd>
+            
         </dl>
-        <h2>Web fonts</h2>
-        <h3>History</h3>
-        <p>A technique to download remote fonts was first specified in the CSS2 specification, which introduced the <a href="http://css-tricks.com/snippets/css/using-font-face/" target="_blank">@font-face</a> rule.</p>
-        <p>It was (and remains) controversial because using a remote font as part of a Web page allows the font to be freely downloaded. This could result in fonts being used against the terms of their license or illegally spread through the Web. TrueDoc (PFR), Embedded OpenType (EOT) and Web Open Font Format (WOFF) are formats designed to address these issues.</p>
-        <p>Since the introduction of Internet Explorer 4, font embedding employing EOT has been used mainly for displaying characters in writing systems that are not supported by default fonts. Use on English-language Web sites was virtually non-existent. With the releases of Firefox 3.5, Opera 10 and Safari 3.1, usage employing other formats is expected to increase.</p>
-        <h3>File formats</h3>
-        <p>By using a specific CSS @font-face embedding technique it is possible to embed fonts such that they work with IE4+, Firefox 3.5+, Safari 3.1+, Opera 10+ and Chrome 4.0+. This allows the vast majority of Web users to access this functionality. Some commercial foundries object to the redistribution of their fonts. For example, Hoefler &amp; Frere-Jones says that, while they &ldquo;...enthusiastically [support] the emergence of a more expressive Web in which designers can safely and reliably use high-quality fonts online,&rdquo; the current delivery of fonts using @font-face is considered &ldquo;illegal distribution&rdquo; by the foundry and is not permitted.</p>
-        <p>Naturally this does not interfere with fonts and foundries under free licenses.</p>
-        <h4>TrueDoc</h4>
-        <p><a href="http://www.monotype.com/libraries/bitstream" target="_blank">Bitstream</a> developed   <strong>TrueDoc</strong>, the first standard for embedding fonts. TrueDoc was natively supported in Netscape Navigator 4, but was discontinued in Netscape Navigator 6 and Mozilla, because Netscape could not release Bitstream's source code. A WebFont Player plugin was available for Internet Explorer, but the technology had to compete against Microsoft&rsquo;s Embedded OpenType fonts, natively supported since version 4.0.</p>
-        <h4>Embedded OpenType</h4>
-        <p>Internet Explorer has supported font embedding through the proprietary Embedded OpenType standard since version 4.0. It uses digital rights management techniques to help prevent fonts from being copied and used without a license. A simplified subset of EOT has been formalized under the name of CWT <em>Compatibility Web Type, formerly EOT-Lite</em></p>
-        <h4>Scalable Vector Graphics</h4>
-        <p>Web typography applies to SVG in two ways:</p>
+   
+                <h2>Hit Films</h2>
+        <p>Nine of Studio Ghibli's films are among the 20 highest-grossing anime films made in Japan:  </p>
+        <ul>
+            <li>Spirited Away</li>
+            <li>Howl's Moving Castle</li>
+            <li>Ponyo on the Cliff by the Sea</li>
+            <li>Princess Mononoke</li>
+            <li>The Secret World of Arrietty</li>
+            <li>The Wind Rises</li>
+            <li>Tales from Earthsea</li>
+            <li>From Up on Poppy Hill</li>
+            <li>Wolf Children: Ame and Yuki</li>
+            <li>The Cat Returns</li>
+        </ul>
+     
+      
+
+      
+        <h2>Film Descriptions</h2>
+        <h3>Spirited Away</h3>
+        <p>A 2001 Japanese animated fantasy film written and directed by Hayao Miyazaki and produced by Studio Ghibli. The film stars Rumi Hiiragi, Miyu Irino, Mari Natsuki, Takeshi Naito, Yasuko Sawaguchi, Tsunehiko Kamijō, Takehiko Ono and Bunta Sugawara, and tells the story of Chihiro Ogino (Hiiragi), a sullen ten-year-old girl who, while moving to a new neighborhood, enters the spirit world. After her parents are transformed into pigs by the witch Yubaba (Natsuki), Chihiro takes a job working in Yubaba's bathhouse to find a way to free herself and her parents and return to the human world.</p>
+        <h3>Howl's Moving Castle</h3>
+        <p>A 2004 Japanese animated fantasy film scripted and directed by Hayao Miyazaki. The film is based on the novel of the same name by English writer Diana Wynne Jones. The film was produced by Toshio Suzuki, animated by Studio Ghibli and distributed by Toho. </p>
+        <p><em>Miyazaki</em> combines a plucky young woman and a mother figure into a single character in the heroine, Sophie. She starts out as an 18-year-old hat maker, but then a witch's curse transforms her into a 90-year-old grey-haired woman. Sophie is horrified by the change at first. Nevertheless, she learns to embrace it as a liberation from anxiety, fear and self-consciousness. The change might be a blessed chance for adventure.</p>
+        <h3>Ponyo on the Cliff by the Sea</h3>
+        <p>A 2008 Japanese animated Fantasy Comedy film written and directed by Hayao Miyazaki of Studio Ghibli and Toho. It is Miyazaki's eighth film for Ghibli, and his tenth overall. The plot centers on a goldfish named Ponyo who befriends a five-year-old human boy, Sōsuke, and wants to become a human girl.</p>
+        <h3>Princess Mononoke</h3>
+        <p>A 1997 anime epic historical fantasy adventure film written and directed by Hayao Miyazaki. It was animated by Studio Ghibli and produced by Toshio Suzuki. </p>
+        <p>Princess Mononoke is a period drama set in the late Muromachi period (approximately 1337 to 1573) of Japan, but with fantasy elements. The story follows the young Emishi warrior Ashitaka's involvement in a struggle between forest gods and the humans who consume its resources.</p>
+        <h3>Arrietty</h3>
+        <p>A 2010 Japanese animated fantasy film directed by Hiromasa Yonebayashi and scripted by Hayao Miyazaki and Keiko Niwa. It is based on The Borrowers by Mary Norton, an English author of children's books, about a family of tiny people who live secretly in the walls and floors of a typical household, borrowing items from humans to survive.</p>
+        <h3>The Wind Rises</h3>
+        <p>A 2013 Japanese animated historical drama film written and directed by Hayao Miyazaki and animated by Studio Ghibli.he Wind Rises was the highest-grossing Japanese film in Japan in 2013 and received critical acclaim. It won and was nominated for several awards, including nominations for the Academy Award for Best Animated Feature, the Golden Globe Award for Best Foreign Language Film, and the Japan Academy Prize for Animation of the Year.</p>
+        <h3>Tales from Earthsea</h3>
+        <p>A 2006 Japanese animated fantasy film directed by Gorō Miyazaki and produced by Studio Ghibli.The film is based on a combination of plots and characters from the first four books of Ursula K. Le Guin's Earthsea series: A Wizard of Earthsea, The Tombs of Atuan, The Farthest Shore and Tehanu; however, the film's title is named from the collection of short stories, Tales from Earthsea, made in 2001. </p>
+        <h3>From Up on Poppy Hill</h3>
+        <p>A 2011 Japanese animated drama film directed by Gorō Miyazaki, scripted by Hayao Miyazaki and Keiko Niwa, and produced by Studio Ghibli.</p> <p>Set in 1963 Yokohama, Japan, the film tells the story of Umi Matsuzaki, a high school girl living in a boarding house, Coquelicot Manor. When Umi meets Shun Kazama, a member of the school's newspaper club, they decide to clean up the school's clubhouse, Quartier Latin. However, Tokumaru, the chairman of the local high school and a businessman, intends to demolish the building for redevelopment and Umi and Shun, along with Shirō Mizunuma, must persuade him to reconsider.</p>
+        <h3>Wolf Children: Ame and Yuki</h3>
+        <p>A 2012 Japanese animated film directed and co-written by Mamoru Hosoda. The film stars the voices of Aoi Miyazaki, Takao Osawa, Haru Kuroki and Yukito Nishii. The story follows a young mother who is left to raise two werewolf children after their werewolf father dies.</p>
+        
+        <h3>The Cat Returns</h3>
+        <p>A 2002 Japanese animated drama film directed by Hiroyuki Morita of Studio Ghibli. A more detailed description of the film can be found <a href="http://en.wikipedia.org/wiki/The_Cat_Returns" target="_blank">here</a>.</p>
+        
+        <h2>Worldwide Gross</h2>
+        <small>In order from Highest to Lowest:</small>
+        <p></p>
         <ol>
-            <li>All versions of the SVG 1.1 specification, including the SVGT subset, define a font module allowing the creation of fonts within an SVG document. Safari introduced support for many of these properties in version 3. Opera added preliminary support in version 8.0, with support for more properties in 9.0.</li>
-            <li>The SVG specification lets CSS apply to SVG documents in a similar manner to HTML documents, and the @font-face rule can be applied to text in SVG documents. Opera added support for this in version 10, and WebKit since version 325 also supports this method using SVG fonts only.</li>
-            <li>Lorem ipsum dolor sit amet consectetur</li>
-            <li>Lorem ipsum dolor sit amet consectetur</li>
-            <li>Lorem ipsum dolor sit amet consectetur</li>
-            <li>Lorem ipsum dolor sit amet consectetur</li>
-            <li>Lorem ipsum dolor sit amet consectetur</li>
-            <li>Lorem ipsum dolor sit amet consectetur</li>
-            <li>Lorem ipsum dolor sit amet consectetur</li>
-            <li>Lorem ipsum dolor sit amet consectetur</li>
-            <li>Lorem ipsum dolor sit amet consectetur</li>
-            <li>Lorem ipsum dolor sit amet consectetur</li>
+            <li>Spirited Away (2002) <br> - $274,925,095</li>
+            <li>Howl's Moving Castle (2005)<br> - $235,184,110</li>
+            <li>Ponyo on the Cliff by the Sea (2009)<br>- $201,750,937</li>
+            <li>Princess Mononoke (1997)<br> - $159,375,308</li>
+            <li>The Secret World of Arrietty (2010)<br> - $145,570,827</li>
+            <li>The Wind Rises (2013)<br> - $135,739,999</li>
+            <li>Tales from Earthsea (2006) <br>- $68,673,565</li>
+            <li>From Up on Poppy Hill (2011)<br> - $61,459,425</li>
+            <li>Wolf Children: Ame and Yuki (2012)<br> - $53,923,613</li>
+            <li>The Cat Returns (2002) <br>- $53,918,847</li>
+
         </ol>
-        <h4>TrueType/OpenType</h4>
-        <p>Linking to industry-standard TrueType (TTF) and OpenType (TTF/OTF) fonts are supported by Mozilla Firefox 3.5+, Opera 10+, Safari 3.1+, Google Chrome 4.0+. Internet Explorer 9+ supports only those fonts with embedding permissions set to installable.</p>
-        <h4>Web Open Font Format</h4>
-        <p>WOFF has been supported by Mozilla Firefox 3.6+, Google Chrome 5+, Opera Presto, and is supported by Internet Explorer 9 (since March 14, 2011). Support is available on Mac OS X Lion's Safari from release 5.1.</p>
-        <h4>An example of a CSS @font-face setup:</h4>
-        <p><code>@font-face { font-family: 'Journal'; src:url('http://your-own.site/fonts/journal/journal.woff') format('woff'), url('http://your-own.site/fonts/journal/journal.svg#Journal') format('svg'), url('http://your-own.site/fonts/journal/journal.ttf') format('truetype'), url('http://your-own.site/fonts/journal/journal.eot'), url('http://your-own.site/fonts/journal/journal.eot?#iefix') format('embedded-opentype'); font-weight: normal; font-style: normal; }</code></p>
-        <hr/>
-        <h1>Lorem ipsum dolor sit amet consectetur</h1>
-        <h2>Lorem ipsum dolor sit amet consectetur</h2>
-        <h3>Lorem ipsum dolor sit amet consectetur</h3>
-        <h4>Lorem ipsum dolor sit amet consectetur</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rhoncus metus at tempus gravida. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris mollis orci sit amet turpis porttitor, a molestie enim viverra.</p>
-        <small>Lorem ipsum dolor sit amet consectetur</small>
-        <h5>Lorem ipsum dolor sit amet consectetur</h5>
-        <h6>Lorem ipsum dolor sit amet consectetur</h6>
+
+        <h2>Significant Achievements</h2>
+      <h6>The first real box-office success in Studio Ghibli's history: Kiki's Delivery Service.</h6>  
+<h6>The highest-grossing film of 1989 in Japan: Kiki's Delivery Service</h6>
+<h6>The highest-grossing film of 1991 in Japan: Only Yesterday</h6>
+<h6>The highest-grossing film of 1992 in Japan: Porco Rosso</h6>
+<h6>The highest-grossing film of 1994 in Japan: Pom Poko</h6>
+<h6>The highest-grossing film of 1995 in Japan: Whisper of the Heart</h6>
+        
+<h6>The first Studio Ghibli film to use computer graphics: Pom Poko</h6>
+<h6>The first Studio Ghibli film to use computer graphics: Pom Poko</h6>
+<h6>The first Japanese film in Dolby Digital: Whisper of the Heart</h6>
+<h5>The first Miyazaki feature to use computer graphics, and the first Studio Ghibli film to use digital coloring; the first animated feature in Japan's history to gross more than 10 billion yen at the box office and the first animated film ever to win a National Academy Award for Best Picture of the Year: Princess Mononoke</h5>
+<h5>The first Studio Ghibli film to be shot using a 100% digital process: My Neighbors the Yamadas</h5>
+<h6>The first Miyazaki feature to be shot using a 100% digital process; the first film to gross $200 million worldwide before opening in North America; the film to finally overtake Titanic at the Japanese box office, becoming the top grossing film in the history of Japanese cinema; the only anime winner of an Academy Award for Best Animated Feature, and the only winner to be made outside the English-speaking world; the only traditionally animated winner, so far, of an Academy award for Best Animated Feature: Spirited Away</h6>
+
     </body>
     
 </html>
